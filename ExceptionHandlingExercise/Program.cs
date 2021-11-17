@@ -14,7 +14,7 @@ namespace ExceptionHandlingExercise
             // Create an string variable with an empty string initializer - name it str
             var arr = new char[] {'1','2','3','4','5','6','a','b','c' };
             var numbers = new List<int>();
-            string str;
+            var str = "";
             // using a foreach loop, attempt to parse the elements in your char[] with int.Parse()
             // and Exceptions will be thrown 
             // Below we will set this up 
@@ -53,10 +53,10 @@ namespace ExceptionHandlingExercise
                 
             
 
-            //foreach (var num in numbers)
-            //{
-            //    Console.WriteLine(num);
-            //}
+           foreach (var num in numbers)
+           {
+                Console.WriteLine(num);
+            }
         }
     }
 }
